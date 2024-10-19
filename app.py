@@ -2,9 +2,7 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)  # Habilita CORS en todas las rutas
-
-# Simular una base de datos de productos
+CORS(app)  
 productos = []
 
 # Ruta para crear un producto
